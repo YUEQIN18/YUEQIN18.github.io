@@ -9,22 +9,22 @@ tagline: Welcome to my website
 heroFullScreen: false
 projects:
   - icon: project
-    name: project name
+    name: Project
     desc: project detailed description
     link: https://your.project.link
 
   - icon: link
-    name: link name
+    name: Link
     desc: link detailed description
     link: https://link.address
 
   - icon: article
-    name: article name
+    name: Article
     desc: Detailed description of the article
     link: https://link.to.your.article
 
   - icon: friend
-    name: friend name
+    name: Friend
     desc: Detailed description of friend
     link: https://link.to.your.friend
 
