@@ -2,7 +2,7 @@
 home: true
 layout: BlogHome
 icon: home
-title: Blog Home
+title: QinYue's Blogs
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 heroText: QinYue's Blogs
 tagline: Welcome to my website
