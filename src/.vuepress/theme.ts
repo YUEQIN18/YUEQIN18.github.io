@@ -7,15 +7,15 @@ export default hopeTheme({
   hostname: "https://YUEQIN18.github.io",
 
   author: {
-    name: "QinYue",
+    name: "Roy",
     url: "https://github.com/YUEQIN18",
   },
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "https://d1wqzb5bdbcre6.cloudfront.net/29ddc90ed1900ad1375681373cabfc25256d9c0c450283153843400f9556bf42/68747470733a2f2f6f7563682d63646e322e69636f6e73382e636f6d2f4c6f6b4d7a4a6f52765256684435506e324430725a5952574d3535444e66635676487a6c674a356c4c5f6f2f72733a6669743a3733363a3737392f637a4d364c79397059323975637a67752f6233566a61433177636d396b4c6d467a2f633256306379397a646d63764e7a4d772f4c7a526b5a546b77596d4d334c5759782f4e6a49744e4464684e4331684e6a49352f4c5751314d57597a4e325a694e32566a2f5a43357a646d632e706e67",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "https://github.com/YUEQIN18/YUEQIN18.github.io",
 
   docsDir: "src",
 
@@ -30,7 +30,32 @@ export default hopeTheme({
   },
 
   locales: {
+    /**
+     * Chinese locale config
+     */
     "/": {
+      // navbar
+      navbar: zhNavbar,
+
+      // sidebar
+      sidebar: zhSidebar,
+
+      footer: "It’s better to be a pirate than join the Navy",
+
+      displayFooter: true,
+
+      blog: {
+        description: "Java/Python, 个人开发者",
+        intro: "/intro.html",
+      },
+
+      // page meta
+      metaLocales: {
+        editLink: "在 GitHub 上编辑此页",
+      },
+    },
+    // english
+    "/en/": {
       // navbar
       navbar: enNavbar,
 
@@ -48,31 +73,6 @@ export default hopeTheme({
 
       metaLocales: {
         editLink: "Edit this page on GitHub",
-      },
-    },
-
-    /**
-     * Chinese locale config
-     */
-    "/zh/": {
-      // navbar
-      navbar: zhNavbar,
-
-      // sidebar
-      sidebar: zhSidebar,
-
-      footer: "It’s better to be a pirate than join the Navy",
-
-      displayFooter: true,
-
-      blog: {
-        description: "Java/Python, 个人开发者",
-        intro: "/zh/intro.html",
-      },
-
-      // page meta
-      metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
       },
     },
   },

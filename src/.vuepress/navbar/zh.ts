@@ -1,52 +1,56 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
-  "/zh/",
-  "/zh/demo/",
+  "/",
   {
-    text: "博文",
+    text: "文章",
     icon: "pen-to-square",
-    prefix: "/zh/posts/",
+    prefix: "/posts/",
     children: [
       {
-        text: "苹果",
-        icon: "pen-to-square",
+        text: "Java",
         prefix: "apple/",
         children: [
-          { text: "苹果1", icon: "pen-to-square", link: "1" },
-          { text: "苹果2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
-        ],
+          { text: "Apple1", icon: "pen-to-square", link: "1" },
+          { text: "Apple2", icon: "pen-to-square", link: "2" },
+        ]
       },
       {
-        text: "香蕉",
-        icon: "pen-to-square",
+        text: "Framework",
         prefix: "banana/",
         children: [
-          {
-            text: "香蕉 1",
-            icon: "pen-to-square",
-            link: "1",
-          },
-          {
-            text: "香蕉 2",
-            icon: "pen-to-square",
-            link: "2",
-          },
-          "3",
-          "4",
-        ],
+          {text: "Banana 1",icon: "pen-to-square",link: "1",},
+        ]
       },
-      { text: "樱桃", icon: "pen-to-square", link: "cherry" },
-      { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
-    ],
+      {
+        text: "Database",
+        prefix: "banana/",
+        children: [
+          {text: "Banana 1",icon: "pen-to-square",link: "1",},
+        ]
+      }
+    ]
   },
   {
-    text: "V2 文档",
+    text: "算法",
     icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
+    prefix: "/algorithm/",
+    children: [
+      { text: "数组", icon: "pen-to-square", link: "array" },
+      { text: "回溯", icon: "pen-to-square", link: "backtrack" },
+      { text: "二叉树", icon: "pen-to-square", link: "binaryTree" },
+      { text: "动态规划", icon: "pen-to-square", link: "dynamic" },
+      { text: "图论", icon: "pen-to-square", link: "graph" },
+      { text: "栈与队列", icon: "pen-to-square", link: "stackAndQueue" },
+      { text: "字符串", icon: "pen-to-square", link: "string" },
+      { text: "前缀树", icon: "pen-to-square", link: "trieTree" }
+    ]
   },
+    // "/demo/",
+  {
+    text: "关于作者",
+    // icon: "lightbulb",
+    icon: "circle-info",
+    link: "intro",
+  }
 ]);

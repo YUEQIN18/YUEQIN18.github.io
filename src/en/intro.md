@@ -1,11 +1,9 @@
 ---
 icon: circle-info
 cover: /assets/images/cover3.jpg
-author: Roy
-date: 2024-04-29
 ---
 
-# Intro Page
+# 介绍页
 
 Java programmer
 

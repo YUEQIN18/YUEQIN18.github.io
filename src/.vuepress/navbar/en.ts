@@ -1,52 +1,56 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const enNavbar = navbar([
-  "/",
-  "/demo/",
+  "/en/",
   {
     text: "Posts",
     icon: "pen-to-square",
     prefix: "/posts/",
     children: [
       {
-        text: "Apple",
-        icon: "pen-to-square",
+        text: "Java",
         prefix: "apple/",
         children: [
           { text: "Apple1", icon: "pen-to-square", link: "1" },
           { text: "Apple2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
-        ],
+        ]
       },
       {
-        text: "Banana",
-        icon: "pen-to-square",
+        text: "Framework",
         prefix: "banana/",
         children: [
-          {
-            text: "Banana 1",
-            icon: "pen-to-square",
-            link: "1",
-          },
-          {
-            text: "Banana 2",
-            icon: "pen-to-square",
-            link: "2",
-          },
-          "3",
-          "4",
-        ],
+          {text: "Banana 1",icon: "pen-to-square",link: "1",},
+        ]
       },
-      { text: "Cherry", icon: "pen-to-square", link: "cherry" },
-      { text: "Dragon Fruit", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
-    ],
+      {
+        text: "Database",
+        prefix: "banana/",
+        children: [
+          {text: "Banana 1",icon: "pen-to-square",link: "1",},
+        ]
+      }
+    ]
   },
   {
-    text: "V2 Docs",
+    text: "Algorithm",
     icon: "book",
-    link: "https://theme-hope.vuejs.press/",
+    prefix: "/algorithm/",
+    children: [
+      { text: "Array", icon: "pen-to-square", link: "array" },
+      { text: "Backtrack", icon: "pen-to-square", link: "backtrack" },
+      { text: "BinaryTree", icon: "pen-to-square", link: "binaryTree" },
+      { text: "Dynamic", icon: "pen-to-square", link: "dynamic" },
+      { text: "Graph", icon: "pen-to-square", link: "graph" },
+      { text: "StackAndQueue", icon: "pen-to-square", link: "stackAndQueue" },
+      { text: "String", icon: "pen-to-square", link: "string" },
+      { text: "TrieTree", icon: "pen-to-square", link: "trieTree" }
+    ]
   },
+    // "/demo/",
+  {
+    text: "About",
+    // icon: "lightbulb",
+    icon: "circle-info",
+    link: "intro",
+  }
 ]);

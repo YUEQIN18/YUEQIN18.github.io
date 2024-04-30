@@ -6,15 +6,15 @@ export default defineUserConfig({
 
   locales: {
     "/": {
-      lang: "en-US",
-      title: "Personal Blog of QinYue",
-      description: "Personal Blog of QinYue, powered by vuepress",
-    },
-    "/zh/": {
       lang: "zh-CN",
-      title: "QinYue的个人博客",
-      description: "QinYue的个人博客, powered by vuepress",
+      title: "Roy的个站",
+      description: "Roy的个站, powered by vuepress",
     },
+    // "/zh/": {
+    //   lang: "zh-CN",
+    //   title: "Roy的个站",
+    //   description: "Roy的个站, powered by vuepress",
+    // },
   },
 
   theme,
