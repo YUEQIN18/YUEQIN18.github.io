@@ -1,3 +1,18 @@
+---
+title: 前缀树问题
+order: 1
+author: Roy
+date: 2024-01-01
+category:
+  - 算法
+tag:
+  - 算法
+  - LeetCode
+sticky: false
+star: false
+copyright: Copyright © 2024 Roy
+---
+
 # 前缀树
 
 前缀树（Trie，字典树），是一种多叉树。

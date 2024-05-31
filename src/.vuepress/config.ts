@@ -7,13 +7,13 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "Roy的个站",
-      description: "Roy的个站, powered by vuepress",
+      title: "Roy的博客",
+      description: "Roy的博客, powered by vuepress",
     },
     // "/zh/": {
     //   lang: "zh-CN",
-    //   title: "Roy的个站",
-    //   description: "Roy的个站, powered by vuepress",
+    //   title: "Roy的博客",
+    //   description: "Roy的博客, powered by vuepress",
     // },
   },
 

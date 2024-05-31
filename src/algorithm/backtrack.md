@@ -1,3 +1,18 @@
+---
+title: 回溯算法问题
+order: 1
+author: Roy
+date: 2024-01-01
+category:
+  - 算法
+tag:
+  - 算法
+  - LeetCode
+sticky: false
+star: false
+copyright: Copyright © 2024 Roy
+---
+
 # 回溯算法
 
 **回溯是递归的副产品，只要有递归就会有回溯**，所以回溯法也经常和二叉树遍历，深度优先搜索混在一起，因为这两种方式都是用了递归。

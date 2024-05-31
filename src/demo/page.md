@@ -3,6 +3,8 @@
 title: Page Config
 # This is the icon of the page
 icon: file
+# This is picture of page
+cover: /assets/images/cover2.jpg
 # This control sidebar order
 order: 3
 # Set author
@@ -17,9 +19,9 @@ tag:
   - Page config
   - Guide
 # this page is sticky in article list
-sticky: true
+sticky: false
 # this page will appear in starred articles
-star: true
+star: false
 # You can customize footer content
 footer: Footer content for test
 # You can customize copyright content

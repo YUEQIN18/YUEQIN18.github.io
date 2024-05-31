@@ -1,3 +1,18 @@
+---
+title: 链表问题
+order: 1
+author: Roy
+date: 2024-01-01
+category:
+  - 算法
+tag:
+  - 算法
+  - LeetCode
+sticky: false
+star: false
+copyright: Copyright © 2024 Roy
+---
+
 # 链表问题
 链表问题需要熟能生巧，对链表进行增删改的时候添加虚头节点会更方便操作。
 

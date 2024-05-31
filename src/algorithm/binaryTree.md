@@ -1,3 +1,18 @@
+---
+title: 二叉树问题
+order: 1
+author: Roy
+date: 2024-01-01
+category:
+  - 算法
+tag:
+  - 算法
+  - LeetCode
+sticky: false
+star: false
+copyright: Copyright © 2024 Roy
+---
+
 # 二叉树的遍历
 二叉树主要有两种遍历方式：
 

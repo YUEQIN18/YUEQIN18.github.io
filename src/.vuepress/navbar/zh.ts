@@ -9,24 +9,19 @@ export const zhNavbar = navbar([
     children: [
       {
         text: "Java",
-        prefix: "apple/",
+        prefix: "java/",
         children: [
-          { text: "Apple1", icon: "pen-to-square", link: "1" },
-          { text: "Apple2", icon: "pen-to-square", link: "2" },
-        ]
-      },
-      {
-        text: "Framework",
-        prefix: "banana/",
-        children: [
-          {text: "Banana 1",icon: "pen-to-square",link: "1",},
+          { text: "Java ThreadLocal浅析", icon: "pen-to-square", link: "javaThreadLocal" },
+          { text: "Java List自定义去重", icon: "pen-to-square", link: "javaListDistinct" },
+          { text: "Java List的浅拷贝与深拷贝", icon: "pen-to-square", link: "javaDeepCopy" },
         ]
       },
       {
         text: "Database",
-        prefix: "banana/",
+        prefix: "database/",
         children: [
-          {text: "Banana 1",icon: "pen-to-square",link: "1",},
+          {text: "MongoDB优化大量插入", icon: "pen-to-square", link: "mongodbMultiInsert"},
+          {text: "Elasticsearch基础篇", icon: "pen-to-square", link: "ElasticsearchIntro"},
         ]
       }
     ]
@@ -36,14 +31,14 @@ export const zhNavbar = navbar([
     icon: "book",
     prefix: "/algorithm/",
     children: [
-      { text: "数组", icon: "pen-to-square", link: "array" },
-      { text: "回溯", icon: "pen-to-square", link: "backtrack" },
-      { text: "二叉树", icon: "pen-to-square", link: "binaryTree" },
-      { text: "动态规划", icon: "pen-to-square", link: "dynamic" },
-      { text: "图论", icon: "pen-to-square", link: "graph" },
-      { text: "栈与队列", icon: "pen-to-square", link: "stackAndQueue" },
-      { text: "字符串", icon: "pen-to-square", link: "string" },
-      { text: "前缀树", icon: "pen-to-square", link: "trieTree" }
+      { text: "数组问题", icon: "book", link: "array" },
+      { text: "回溯算法问题", icon: "book", link: "backtrack" },
+      { text: "二叉树问题", icon: "book", link: "binaryTree" },
+      { text: "动态规划问题", icon: "book", link: "dynamic" },
+      { text: "图问题", icon: "book", link: "graph" },
+      { text: "栈与队列问题", icon: "book", link: "stackAndQueue" },
+      { text: "字符串问题", icon: "book", link: "string" },
+      { text: "前缀树问题", icon: "book", link: "trieTree" }
     ]
   },
     // "/demo/",
