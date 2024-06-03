@@ -1,6 +1,8 @@
 ---
 icon: circle-info
 cover: /assets/images/cover3.jpg
+author: Roy
+date: 2024-01-01
 ---
 
 # 介绍页

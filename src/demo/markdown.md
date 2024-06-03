@@ -1,6 +1,8 @@
 ---
 title: Markdown Enhance
 icon: fab fa-markdown
+author: Roy
+date: 2023-12-01
 order: 2
 category:
   - Guide
